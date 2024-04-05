@@ -12,4 +12,10 @@ void main(){
   DateTime future=now.add(Duration(days: 8));
   // parsedfuture=future.pa
   print("Future: $future");
+
+  // Create a past date as an object
+  DateTime jana = DateTime(2024,4,4);
+  print("Yesterday: $jana");
+
+  print("Days Between $now and $future : $now-$future");
 }
